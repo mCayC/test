@@ -1,5 +1,14 @@
+<script>
+  var c = 0;
+  function incr(){
+    c = c + 1;
+    var elem = document.getElementByID('count');
+    elem.innerHTML = c;
+  }
+</script>
 <div style="text-align:center">
   <h1>WOOW</h1>
+  <h4 id="count">0</h4>
   <button>INCR</button>
 </div>
 
