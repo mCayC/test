@@ -1,9 +1,7 @@
 <script>
-  var c = 0;
   function incr(){
-    c = c + 1;
     var elem = document.getElementByID('count');
-    elem.innerHTML = c;
+    elem.innerHTML = ParseInt(elem.innerHTML,10) + 1;
   }
 </script>
 <div style="text-align:center">
