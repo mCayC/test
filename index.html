@@ -1,7 +1,10 @@
 <script>
+  var x = 1
   function incr(){
-    var elem = document.getElementByID('count');
-    elem.innerHTML = ParseInt(elem.innerHTML,10) + 1;
+    alert("CLICKED")
+    var elem = document.getElementByID('count')
+    elem.innerHTML = x
+    x = x + 1
   }
 </script>
 <div style="text-align:center">
